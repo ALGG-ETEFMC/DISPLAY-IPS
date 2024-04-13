@@ -18,7 +18,7 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
 <li>Ainda na configuração do MX, é necessário configurar os GPIOs dos pinos de controle do display
   <ul><li>RES=RESET: configurar o pino PB1 como GPIO_OUTPUT. Você deve dar um nome (LABEL) para esse pino. 
               Para isso, clique com o botão direito e use a opção "Enter User Label". Você deve configurar
-              conforme o modelo de display ST7789_RS ou ST7735_RS</li>
+              conforme o modelo de display ST7789_RST ou ST7735_RS </li>
   <li>DC: configurar o pino PB0 como GPIO_OUTPUT. Você deve dar um nome (LABEL) para esse pino. 
               Para isso, clique com o botão direito e use a opção "Enter User Label". Você deve configurar
               conforme o modelo de display ST7789_DC ou ST7735_DC</li>
@@ -36,8 +36,8 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
             <li>Advanced Parameters: CRC Calculation = Disabled, NSS Signal Type = Software</li></ul>
             </li></ul></li>
 <li>Salve a configuração.</li>
-<li>No janela Project Explorer, selecione a pasta SRC. Clique com o botão direito e escolha a opção New Source Folder. Escolha o nome conforme o modelo do display ST7789 ou ST7735 e clique em Finish</li>
-<li>Selecione a pasta que acabou de driver (ST7789 ou ST7735), clique com o botão direito e escolha a opção IMPORT</li>
+<li>No janela Project Explorer, selecione a pasta Core\Src. Clique com o botão direito e escolha a opção New => Folder. Escolha o nome conforme o modelo do display ST7789 ou ST7735 e clique em Finish</li>
+<li>Selecione a pasta que acabou de criar (ST7789 ou ST7735), clique com o botão direito e escolha a opção IMPORT</li>
 <li>No menu de seleção, escolha File System e clique em Next. Após, clique em Browse e vá até a pasta que contém os arquivo que você fez o donwload desse repositório e confirme clicando em Open. Na sequência, marque todos os arquivos e clique em Finish</li>
 <li>Após esses passos, você poderá ver os arquivos na pasta. Por fim, você precisa incluir esses arquivos no Path para que o Build ocorra corretamente. Para isso, selecione a pasta que acabou de adicionar, clique com o botão direito e escolha a opção Add and Remove Include Path.</li>
 <li>Pronto! Agora o projeto está configurado para usar as funcionalidades do display. .</li>
