@@ -6,10 +6,11 @@ https://github.com/afiskon/stm32-st7735 e https://github.com/Floyd-Fish/ST7789-S
 Eles foram adaptados para serem executados na placa STM32F103C8, também conhecida como BluePill,
 sendo utilizado o STMCube IDE como plataforma principal, junto ao recurso MX.
 
-Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção:
+Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
 
-1-Faça o download da pasta com os arquivos .c e .h que serão utilizados
-2-Crie um projeto normalmente no STMCube IDE
+<ul>
+<li>Faça o download da pasta com os arquivos .c e .h que serão utilizados</li>
+<li>Crie um projeto normalmente no STMCube IDE</li>
 3-Na configuração do MX, você pode configurar os leds e botões da placa:
   3.1 LEDs: PB3 a PB6
   3.2 Botões: PA9 a PA12
@@ -32,3 +33,5 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção:
             Clock Parameters: Prescaler = 4, Clock Polarity (CPOL) = High, Clock Phase (CPHA) = 1 Edge
             Advanced Parameters: CRC Calculation = Disabled, NSS Signal Type = Software
 6-Salve a configuração.
+
+</ul>
