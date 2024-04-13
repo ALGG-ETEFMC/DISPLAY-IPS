@@ -41,7 +41,16 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
 <li>No menu de seleção, escolha File System e clique em Next. Após, clique em Browse e vá até a pasta que contém os arquivo que você fez o donwload desse repositório e confirme clicando em Open. Na sequência, marque todos os arquivos e clique em Finish</li>
 <li>Após esses passos, você poderá ver os arquivos na pasta. Por fim, você precisa incluir esses arquivos no Path para que o Build ocorra corretamente. Para isso, selecione a pasta que acabou de adicionar, clique com o botão direito e escolha a opção Add and Remove Include Path.</li>
 <li>Pronto! Agora o projeto está configurado para usar as funcionalidades do display. .</li>
+</ul>
 <h2> Utilizando os recursos do display</h2>
-
-
+No arquivo main.c você deverá fazer duas alterações importantes: incluir os arquivos .h da biblioteca e inicializar o display.
+<ul>
+<li>Para incluir os arquivos.h, localize no main.c a tag "USER CODE BEGIN INCLUDES". Na tag, inclua o código
+  #include "st7789.h"
+</li>
+<li>Para inicializar o display, localize no main.c a tag "USER CODE BEGIN 2". Na tag, inclua a chamada da função
+ ST7789_Init();
+</li>
+Pronto! Se quiser testar o display, você pode chamar a função  ST7789_Test(); dentro do loop principal do código. 
+Faça um build e verifique erros. Se encontrar, revise esse passo-a-passo. Depois, só iniciar o debug e acompanhar a execução do código, preferencialmente, passo-a-passo.
 </ul>
