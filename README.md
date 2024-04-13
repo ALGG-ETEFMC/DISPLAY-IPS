@@ -11,9 +11,9 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
 <ul>
 <li>Faça o download da pasta com os arquivos .c e .h que serão utilizados</li>
 <li>Crie um projeto normalmente no STMCube IDE</li>
-3-Na configuração do MX, você pode configurar os leds e botões da placa:
-  3.1 LEDs: PB3 a PB6
-  3.2 Botões: PA9 a PA12
+<li>Na configuração do MX, você pode configurar os leds e botões da placa:
+  <li>LEDs: PB3 a PB6</li>
+  <li>Botões: PA9 a PA12</li></li>
 4-Ainda na configuração do MX, é necessário configurar os GPIOs dos pinos de controle do display
   RES=RESET: configurar o pino PB1 como GPIO_OUTPUT. Você deve dar um nome (LABEL) para esse pino. 
               Para isso, clique com o botão direito e use a opção "Enter User Label". Você deve configurar
