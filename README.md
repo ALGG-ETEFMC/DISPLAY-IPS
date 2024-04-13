@@ -8,6 +8,7 @@ sendo utilizado o STMCube IDE como plataforma principal, junto ao recurso MX.
 
 Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
 
+<h2>Configurando a IDE</h2>
 <ul>
 <li>Faça o download da pasta com os arquivos .c e .h que serão utilizados</li>
 <li>Crie um projeto normalmente no STMCube IDE</li>
