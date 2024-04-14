@@ -18,7 +18,7 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
 <li>Ainda na configuração do MX, é necessário configurar os GPIOs dos pinos de controle do display
   <ul><li>RES=RESET: configurar o pino PB1 como GPIO_OUTPUT. Você deve dar um nome (LABEL) para esse pino. 
               Para isso, clique com o botão direito e use a opção "Enter User Label". Você deve configurar
-              conforme o modelo de display ST7789_RST ou ST7735_RS </li>
+              conforme o modelo de display ST7789_RST ou ST7735_RES </li>
   <li>DC: configurar o pino PB0 como GPIO_OUTPUT. Você deve dar um nome (LABEL) para esse pino. 
               Para isso, clique com o botão direito e use a opção "Enter User Label". Você deve configurar
               conforme o modelo de display ST7789_DC ou ST7735_DC</li>
