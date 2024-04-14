@@ -27,7 +27,7 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
               conforme o modelo de display ST7789_CS ou ST7735_CS</li></ul></li>
 <li>Ainda na configuração do MX, é necessário configurar a SPI1 para comunicar com o display. Para isso, vá
       em Connectivity e selecione SPI1. Configure da seguinte forma, atenção para o modelo do controlador do display:
-      <ul>ST7789 (240x240)<li>Mode: Full-Duplex Master</li>
+      <ul><b>ST7789 (240x240)</b><li>Mode: Full-Duplex Master</li>
       <li>Hardware NSS Signal: Disable</li>
       <li>Parameter Settings:
             <ul>
@@ -35,7 +35,7 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
             <li>Clock Parameters: Prescaler = 4, Clock Polarity (CPOL) = High, Clock Phase (CPHA) = 1 Edge</li>
             <li>Advanced Parameters: CRC Calculation = Disabled, NSS Signal Type = Software</li></ul>
             </li></ul>
-      <ul>ST7735 (80x160)<li>Mode: Half-Duplex Master</li>
+      <ul><b>ST7735 (80x160)</b><li>Mode: Half-Duplex Master</li>
       <li>Hardware NSS Signal: Disable</li>
       <li>Parameter Settings:
             <ul>
