@@ -38,9 +38,9 @@ extern SPI_HandleTypeDef ST7789_SPI_PORT;
 
 /* Choose a type you are using */
 //#define USING_135X240
-//#define USING_240X240
+#define USING_240X240
 //#define USING_170X320
-#define USING_80X160
+//#define USING_80X160
 
 /* Choose a display rotation you want to use: (0-3) */
 //#define ST7789_ROTATION 0
