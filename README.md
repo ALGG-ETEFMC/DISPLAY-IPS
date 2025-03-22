@@ -64,7 +64,7 @@ Pronto! Se quiser testar o display, você pode chamar a função  ST7789_Test();
 Faça um build e verifique erros. Se encontrar, revise esse passo-a-passo. Depois, só iniciar o debug e acompanhar a execução do código, preferencialmente, passo-a-passo.
 Consule o arquivo st7735.h para verificar as funções disponíveis para uso.
 </ul>
-<h2> Utilizando os recursos do display 160 ST7735</h2>
+<h2> Utilizando os recursos do display 80x160 ST7735</h2>
 No arquivo main.c você deverá fazer duas alterações importantes: incluir os arquivos .h da biblioteca e inicializar o display.
 <ul>
 <li>Para incluir os arquivos.h, localize no main.c a tag "USER CODE BEGIN INCLUDES". Na tag, inclua o código
