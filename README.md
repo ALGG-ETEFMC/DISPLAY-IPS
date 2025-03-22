@@ -55,7 +55,7 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
 No arquivo main.c você deverá fazer duas alterações importantes: incluir os arquivos .h da biblioteca e inicializar o display.
 <ul>
 <li>Para incluir os arquivos.h, localize no main.c a tag "USER CODE BEGIN INCLUDES". Na tag, inclua o código
-  #include "st7789.h"
+  #include "st7789\st7789.h"
 </li>
 <li>Para inicializar o display, localize no main.c a tag "USER CODE BEGIN 2". Na tag, inclua a chamada da função
  ST7789_Init();
@@ -68,7 +68,7 @@ Consule o arquivo st7735.h para verificar as funções disponíveis para uso.
 No arquivo main.c você deverá fazer duas alterações importantes: incluir os arquivos .h da biblioteca e inicializar o display.
 <ul>
 <li>Para incluir os arquivos.h, localize no main.c a tag "USER CODE BEGIN INCLUDES". Na tag, inclua o código
-  #include "st7735.h"
+  #include "st7735\st7735.h"
 </li>
 <li>Para inicializar o display, localize no main.c a tag "USER CODE BEGIN 2". Na tag, inclua a chamada da função
  ST7735_Init();
