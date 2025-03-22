@@ -48,7 +48,7 @@ Para utilizar os códigos, vários passos devem ser seguidos. Preste atenção!
 <li>No janela Project Explorer, selecione a pasta Core\Src. Clique com o botão direito e escolha a opção New => Folder. Escolha o nome conforme o modelo do display ST7789 ou ST7735 e clique em Finish</li>
 <li>Selecione a pasta que acabou de criar (ST7789 ou ST7735), clique com o botão direito e escolha a opção IMPORT</li>
 <li>No menu de seleção, escolha File System e clique em Next. Após, clique em Browse e vá até a pasta que contém os arquivo que você fez o donwload desse repositório e confirme clicando em Open. Na sequência, marque todos os arquivos e clique em Finish</li>
-<li>Após esses passos, você poderá ver os arquivos na pasta. Por fim, você precisa incluir esses arquivos no Path para que o Build ocorra corretamente. Para isso, selecione a pasta que acabou de adicionar, clique com o botão direito e escolha a opção Add and Remove Include Path. Caso essa opção não esteja disponível, faça o seguinte: com a pasta selecionada, clique com o botão direito e escolha a opção Properties. No menu, selecione C/C++ General: Paths and Symbols. Clique em ADD. Clique em Workspace e na árvore de seleção, localize  a pasta que você precisa adicionar no path e confirme com o OK. Na sequência, confirme no OK e clique em Apply and Close.</li>
+<li>Após esses passos, você poderá ver os arquivos na pasta.</li>
 <li>Pronto! Agora o projeto está configurado para usar as funcionalidades do display. .</li>
 </ul>
 <h2> Utilizando os recursos do display 240x240 ST7789</h2>
